@@ -1,0 +1,34 @@
+{
+    "type": "pages",
+    "headline": "SK Media Station X",
+    "pages": [
+       {
+          "items": [
+             {
+                "type": "default",
+                "layout": "0,0,3,3",
+                "image": "https://www.apkapps.org/wp-content/uploads/2024/03/Lampa-TV-APK.png",
+                "imageFiller": "cover",
+                "label": "Lampa",
+                "action": "link:http://lampa.mx/"
+             },
+             {
+                "type": "default",
+                "layout": "3,0,3,3",
+                "image": "https://singifyai.fineshare.com/soundboard-cover/twitch-soundboard.webp",
+                "imageFiller": "cover",
+                "label": "Twitch",
+                "action": "link:http://twitch.tv"
+             },
+             {
+                "type": "default",
+                "layout": "6,0,3,3",
+                "image": "https://static.rustore.ru/apk/2027823295/content/ICON/4b5c449f-817e-4d35-8d33-8924bdf81469.png",
+                "imageFiller": "cover",
+                "label": "VK Video",
+                "action": "link:https://vk.com/video"
+             }
+          ]
+       }
+    ]
+ }
