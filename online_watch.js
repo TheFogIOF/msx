@@ -2,7 +2,7 @@
     'use strict';
 
     function startPlugin() {
-        window.plugin_is_ready = true;
+        window.online_watch_plugin = true;
   
         function appReady() {
             console.log("plugin loaded");
@@ -14,7 +14,7 @@
             });
         }
     }
-    if (!window.plugin_is_ready) startPlugin();
+    if (!window.online_watch_plugin) startPlugin();
 })();
 /*
 (function() {
