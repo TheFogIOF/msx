@@ -11585,7 +11585,7 @@
       search: true,
       kp: false,
       imdb: true,
-      disabled: true
+      disabled: false
     }];
     var obj_filter_sources = all_sources.filter(function (s) {
       return !s.disabled;
