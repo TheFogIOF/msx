@@ -5,25 +5,6 @@
         window.online_watch_plugin = true;
   
         function appReady() {
-            console.log("plugin loaded");
-        }
-
-        if (window.appready) appReady(); else {
-            Lampa.Listener.follow('app', function(e) {
-                if (e.type == 'ready') appReady();
-            });
-        }
-    }
-    if (!window.online_watch_plugin) startPlugin();
-})();
-/*
-(function() {
-    'use strict';
-
-    function startPlugin() {
-        window.plugin_is_ready = true;
-  
-        function appReady() {
 
             Lampa.Lang.add({
                 watch_title: {
@@ -71,6 +52,5 @@
             });
         }
     }
-    if (!window.plugin_is_ready) startPlugin();
+    if (!window.online_watch_plugin) startPlugin();
 })();
-*/
