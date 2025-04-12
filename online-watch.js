@@ -44,10 +44,6 @@
                     });
 
                     Lampa.Activity.render().find(".full-start-new__buttons").prepend(watch_button);
-                    
-                    //var btn = $(Lampa.Lang.translate(watch_button));
-        
-                    //if (e.data && e.object) e.object.activity.render().find('.button--watch').last().after(btn);
                 }
             });
         }
