@@ -1,15 +1,6 @@
 (function() {
     'use strict';
 
-    Lampa.Lang.add({
-        watch_button: {
-            ru: "Онлайн-просмотр",
-            en: "Online Watch",
-            uk: "Онлайн-перегляд",
-            be: "Анлайн-прагляд"
-        }
-    });
-
     function appReady(e) {
         //functions
         function fullComplite(e) {
@@ -19,7 +10,17 @@
             if (e.data && e.object) e.object.activity.render().find('.button--watch').last().after(btn);
         }
 
-        //events
+        //lang
+        Lampa.Lang.add({
+            watch_button: {
+                ru: "Онлайн-просмотр",
+                en: "Online Watch",
+                uk: "Онлайн-перегляд",
+                be: "Анлайн-прагляд"
+            }
+        });
+    
+        //events   
         Lampa.Listener.follow('full', function(e) {
             if (e.type == 'complite') fullComplite(e);
         });
