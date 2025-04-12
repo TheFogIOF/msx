@@ -26,10 +26,8 @@
         });
     }
 
-    if (window.appready) appReady(); else {
-        Lampa.Listener.follow('app', function(e) {
-            if (e.type == 'ready') appReady(e);
-        });
-    }
-
+    Lampa.Listener.follow('app', function(e) {
+        if (e.type == 'ready') appReady(e);
+    });
+    
 })();
