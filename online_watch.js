@@ -5,6 +5,7 @@
         window.plugin_is_ready = true;
   
         function appReady() {
+            /*
             Lampa.Lang.add({
                 watch_title: {
                     ru: 'Онлайн-просмотр',
@@ -19,7 +20,7 @@
                     be: 'Анлайн-прагляд'
                 }
             });
-
+            */
             Lampa.Listener.follow('full', function(event) {
                 if (event.type == 'complite') {
                     var movie = event.data.movie;
